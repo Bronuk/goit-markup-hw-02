@@ -18,6 +18,11 @@ body {
   text-decoration: none;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+}
+
 /* ------------------------HEADER------------------------ */
 
 .logo-header {
@@ -77,12 +82,6 @@ body {
   color: var(--accent-color);
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-color);
-  cursor: pointer;
-}
-
 /* ------------------------HERO------------------------ */
 
 /* СУТО ДЛЯ ВИДІЛЕННЯ ТЕКСТУ*/
@@ -102,6 +101,8 @@ body {
 }
 
 .hero-btn {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -110,6 +111,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* ------------------------ADVENTAGES------------------------ */
@@ -209,12 +211,15 @@ body {
 /* ------------------------BUTTON FILTERS------------------------ */
 
 .filters-btn {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
 }
 
 .link-gallery-title {
